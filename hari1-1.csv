@@ -1,0 +1,18 @@
+rm files Menghapus file
+mkdir directory Membuat direktori baru
+rmdir directory Menghapus direktori yang telah kosong
+rm -r files Menghapus file, direktori dan subdirektorinya.
+
+test
+
+pwd Melihat direktori kerja saat ini
+hostname Menampilkan nama local host (mesin dimana anda
+ sedang bekerja). Gunakan perintah " netconf"
+ (sebagai root) untuk merubah nama host dari
+ mesin tersebut, atau edit file /etc/hosts
+whoami Mencetak login name anda
+id username Mencetak user id (uid) atau group id (gid)
+date Mencetak atau merubah tanggal dan waktu pada
+ komputer, contoh merubah tanggal dan waktu ke
+ 2000-12-31 23:57 dengan perintah;
+ date 123123572000
