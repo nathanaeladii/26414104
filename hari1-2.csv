@@ -1,0 +1,9 @@
+vi sample_copy.txt
+mkdir aaa
+cp sample_copy.txt aaa
+
+echo I love Indonesia
+
+grep ­i apple sample_copy.txt
+wc sample_copy.txt
+sort sample_copy.txt
