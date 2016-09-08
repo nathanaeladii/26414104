@@ -1,0 +1,11 @@
+factor=0
+for ((i=2;i<$1;i+=1)); do
+        if (($1%i==0)); then
+                factor=$(($factor+1))
+        fi
+done
+if((factor==0)); then
+        echo "prime"
+else
+        echo "not prime"
+fi
