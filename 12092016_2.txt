@@ -1,0 +1,42 @@
+no coba2.txt
+   68  rm coba2.txt coba.txt
+   69  ls
+   70  touch coba.txt
+   71  nano coba.txt
+   72  ls
+   73  file coba.txt
+   74  ls
+   75  touch coba.doc
+   76  ls
+   77  file coba.doc
+   78  rm coba.doc
+   79  ls
+   80  stat coba.txt
+   81  lsattr
+   82  chattr
+   83  chattr -RVF
+   84  find coba.txt
+   85  ls
+   86  cd ..
+   87  find coba.txt
+   88  find /TestFH/coba.txt
+   89  find \TestFH\coba.txt
+   90  locate coba.txt
+   91  ls
+   92  cd TestFH
+   93  locate coba.txt
+   94  which
+   95  ls
+   96  which
+   97  whereis
+   98  whereis -B
+   99  whereis -f -B
+  100  whereis -f
+  101  head
+  102  su
+  103  sudo
+  104  who
+  105  w
+  106  whoami
+  107  history
+  108  nano coba.txt
