@@ -1,0 +1,66 @@
+
+    2  cd Downloads
+    3  ls
+    4  pwd
+    5  ls
+    6  cd ..
+    7  ls
+    8  ls -l
+    9  mkdir test
+   10  ls
+   11  rmdir test
+   12  ls
+   13  ls -al
+   14  ls -l
+   15  mkdir TestFH
+   16  ls -l
+   17  cd TestFH
+   18  vim
+   19  vim-gnome
+   20  vim
+   21  sudo
+   22  sudo man
+   23  vim
+   24  sudo man
+   25  man
+   26  cd man
+   27  vim man
+   28  sudo vim
+   29  nano
+   30  ls
+   31  rm CobaCoba
+   32  ls
+   33  touch coba.txt
+   34  ls
+   35  nano coba.txt
+   36  echo
+   37  ls
+   38  nano coba.txt
+   39  tesls
+   40  ls
+   41  vim coba.txt
+   42  nano coba.txt
+   43  touch
+   44  touch --help
+   45  touch -t
+   46  touch -t coba.txt 121212
+   47  ls -l
+   48  ls -al
+   49  cp coba.txt coba2.txt
+   50  ls
+   51  nano coba2.txt
+   52  nano coba.txt
+   53  mkdir folder1
+   54  ls
+   55  mv coba.txt folder1
+   56  ls
+   57  cd folder1
+   58  ls
+   59  rm coba.txt
+   60  ls
+   61  cd ..
+   62  ls
+   63  file
+   64  file coba2.txt coba2.doc
+   65  l
+   66  ls
