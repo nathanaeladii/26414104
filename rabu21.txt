@@ -1,0 +1,11 @@
+vi perl.pl
+vi apa1.txt
+rm apa1.txt
+ls
+vi apa1.pl
+vi apa.pl
+vi perl.pl
+vi apa1.pl
+perl apa1.pl
+echo "cobain simple pattenrs dan unicode properties"
+history
