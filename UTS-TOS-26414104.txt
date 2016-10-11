@@ -1,0 +1,24 @@
+nomor 1
+
+num1=$(curl www.elevania.co.id/prd-apple-iphone-7-plus-black-128gb-garansi-6242166 | grep "Harga" | cut -c18-22 | sed -n '2p')
+echo "Harga Iphone : "$num1 >> data.sh
+0 7-19 * * 1-5 data.sh 2>&1 | mail -s "Cronjob Log m26414104@john.petra.ac.id"
+if (($num1<= 15000000))
+then
+mail -s "Cronjob Log m26414104@john.petra.ac.id"
+fi
+
+nomor 2
+
+curl http://stats.labs.apnic.net/ipv6/ID | grep "ASN" | sed s/","/"|"/g) > asn.csv
+
+nomor 3
+
+\begin{filecontents*}{asn.csv}
+\end{filecontents*}
+
+\begin{document}
+	\begin{tabular}{l|c}%
+	\csvreader[head to column names]{asn.csv}{}%
+	\end{tabular}
+\end{document}
