@@ -31,3 +31,23 @@ print "Fred wants a $1\n";
 	print "Kurs jual : $kurs[1]\n";
 	$selisih=$kurs[1]-$kurs[0];
 print "Selisih : $selisih\n";
+
+#!/usr/bin/perl
+	$text = "saya nathanael adi nrp 26414104";
+	$n = 0;
+	while($text =~ /(\w+)/g){
+	print $1, "\n";
+	$n++;
+	}
+	print "Total = $n kata.\n";
+  
+  #!/usr/bin/perl
+$pass = <STDIN>;
+if($pass =~ /^$/)
+{
+ print "Isi Password!\n";
+}
+
+if($pass !~ /^\w{5,8}$/) {
+ print "Password hanya boleh 5-8 huruf, angka, dan _!\n";
+}
