@@ -1,0 +1,4 @@
+	$text = "saya nathan 26414104";
+  	$n = 0;
+  	while($text =~ /(\w+)/g){
+  	print $1, "\n";
