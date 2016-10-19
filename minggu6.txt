@@ -1,0 +1,33 @@
+#!/usr/bin/perl
+$_ = "brontosaourus burger";
+if (/(?:bronto)?saurus (?:BBQ)?(steak|burger)/)
+{
+print "Fred wants a $1\n";
+}
+
+#!/usr/bin/perl
+	if("Hello there. neighbor" =~ /\s(\w+),/)
+	{
+	print "That actually matcher '$&'.\n";
+	}
+	
+	if("Hello there. neighbor" =~ /\s(\w+),/)
+	{
+	print "That was ($')($&)($').\n;"
+	}
+  
+  #!/usr/bin/perl
+	my $data=`curl -s http://www.bankmandiri.co.id/resource/kurs.asp | grep 'USD'`;
+	@lines = split /\n/, $data;
+	foreach my $line (@lines) {
+	if ($line =~ /"\d+"/g) {
+	$result = $&;
+	$result =~ s/"//g;
+	push @kurs,$result;
+	}
+	}
+	
+	print "Kurs beli : $kurs[0]\n";
+	print "Kurs jual : $kurs[1]\n";
+	$selisih=$kurs[1]-$kurs[0];
+print "Selisih : $selisih\n";
